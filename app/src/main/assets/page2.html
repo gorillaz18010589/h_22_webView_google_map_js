@@ -1,0 +1,15 @@
+
+
+
+    <!--產生樂透-->
+<script>
+    function test1(n = 49){
+       var a1 =  document.getElementById("a1");
+       a1.innerHTML = parseInt(Math.random()*n+1);
+    }
+
+
+</script>
+    <br>
+<input type="button" onclick="test1()" value="lottery">
+<div id="a1"> </div>
